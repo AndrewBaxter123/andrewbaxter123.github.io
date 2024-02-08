@@ -36,10 +36,11 @@ h2 {
 
 img {
     display: block;
-    max-width: 50%; 
-    height: auto; 
-    margin: 20px 0; 
+    margin: 20px auto; 
+    max-width: 400px;
+    max-height: 300px;
 }
+
 
 ul {
     list-style-type: none;
