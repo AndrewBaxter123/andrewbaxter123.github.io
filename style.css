@@ -51,14 +51,12 @@ h2 {
 }
 
 .poster {
-    width: 100%; /* Use full container width */
-    max-width: 600px; /* Maximum width */
-    height: auto; /* Maintain aspect ratio */
-    border: 2px solid #000; /* Example border */
-    margin: 20px 0; /* Margin around the poster */
-    display: block;
-    align-content: center;
+    display: block; /* Makes the image a block-level element */
+    margin-left: auto; /* Automatically adjusts the left margin */
+    margin-right: auto; /* Automatically adjusts the right margin */
+    width: 80%; /* Adjust the width as needed, or use max-width */
 }
+
 
 
 
