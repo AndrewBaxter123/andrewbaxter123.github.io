@@ -41,14 +41,23 @@ h2 {
     width: 50%;
 } */
 
-img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-right: 20px;
-    border: 3px solid blue;
+.headshot {
+    width: 150px; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular shape */
+    margin: 0 auto; /* Center the image */
+    display: block;
 }
+
+.poster {
+    width: 100%; /* Use full container width */
+    max-width: 600px; /* Maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #000; /* Example border */
+    margin: 20px 0; /* Margin around the poster */
+    display: block;
+}
+
 
 
 ul {
