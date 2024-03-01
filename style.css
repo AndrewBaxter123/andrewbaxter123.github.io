@@ -57,6 +57,7 @@ h2 {
     border: 2px solid #000; /* Example border */
     margin: 20px 0; /* Margin around the poster */
     display: block;
+    align-content: center;
 }
 
 
